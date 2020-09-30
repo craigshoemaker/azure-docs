@@ -18,7 +18,7 @@ Binding to a function is a way of declaratively connecting another resource to t
 
 You can mix and match different bindings to suit your needs. Bindings are optional and a function might have one or multiple input and/or output bindings.
 
-Triggers and bindings let you avoid hardcoding access to other services. Your function receives data (for example, the content of a queue message) in function parameters. You send data (for example, to create a queue message) by using the return value of the function. 
+Triggers and bindings let you avoid hardcoding access to other services. Your function receives data (for example, the content of a queue message) in function parameters. You send data (for instance, to create a queue message) by using the return value of the function. 
 
 Consider the following examples of how you could implement different functions.
 
